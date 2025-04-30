@@ -25,7 +25,7 @@
   
   h1 {
     font-size: 2rem;
-    color: rgb(229, 9, 20); /* tom Netflix vibes */
+    color: rgb(229, 9, 20); 
     margin-left: 20px;
   }
   nav ul {
@@ -62,14 +62,8 @@
   
   nav ul li a:hover {
     color: #e50914;
-  }
-  
-  main {
-    padding: 40px;
-  }
-  
+  }  
   table {
-    padding: 40px;
     width: 100%;
     margin: 30px auto;
     border-spacing: 20px;
@@ -118,8 +112,12 @@
   a:hover {
     text-decoration: underline;
   }
+  img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+  }
   footer {
-    padding: 20px;
     text-align: center;
     color: #fff;
     font-size: 0.9rem;

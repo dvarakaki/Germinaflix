@@ -17,8 +17,8 @@ header {
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
-  
 }
+
 header h1 {
   color: #e50914;
   font-size: 2.5rem;
@@ -26,9 +26,10 @@ header h1 {
 
 h1 {
   font-size: 2rem;
-  color: rgb(229, 9, 20); 
+  color: rgb(229, 9, 20);
   margin-left: 20px;
 }
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -38,13 +39,18 @@ nav ul {
   flex-wrap: wrap;
   gap: 15px;
 }
+
 nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 12px;
+  transition: color 0.3s ease;
 }
 
+nav ul li a:hover {
+  color: #e50914;
+}
 
 ul {
   display: flex;
@@ -61,18 +67,10 @@ ul li {
   transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-  color: #e50914;
-}
-
-main {
-  padding: 40px;
-}
 
 table {
   width: 100%;
   margin: 30px auto;
-  border-spacing: 20px;
   border-spacing: 20px;
 }
 
@@ -95,12 +93,6 @@ td:hover {
   background-color: #333;
 }
 
-a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.2rem;
-}
-
 td p {
   margin: 5px 0;
 }
@@ -113,13 +105,20 @@ td p {
 a {
   color: #e50914;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 a:hover {
   text-decoration: underline;
 }
+
+img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
 footer {
-  padding: 20px;
   text-align: center;
   color: #fff;
   font-size: 0.9rem;
@@ -127,4 +126,4 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-} 
+}

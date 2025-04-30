@@ -65,10 +65,6 @@
     color: #e50914;
   }
   
-  main {
-    padding: 40px;
-  }
-  
   table {
     width: 100%;
     margin: 30px auto;
@@ -118,8 +114,12 @@
   a:hover {
     text-decoration: underline;
   }
+  img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+  }
   footer {
-    padding: 20px;
     text-align: center;
     color: #fff;
     font-size: 0.9rem;

@@ -69,7 +69,6 @@
   }
   
   table {
-    padding: 40px;
     width: 100%;
     margin: 30px auto;
     border-spacing: 20px;
@@ -118,8 +117,12 @@
   a:hover {
     text-decoration: underline;
   }
+  img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+  }
   footer {
-    padding: 20px;
     text-align: center;
     color: #fff;
     font-size: 0.9rem;
