@@ -49,3 +49,10 @@ img {
   border-radius: 50%;
   margin-bottom: 20px;
 }
+footer{
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.8rem;
+  color: #ccc;
+  text-align: center;
+}

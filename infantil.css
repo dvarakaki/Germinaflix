@@ -5,29 +5,25 @@
 }
 
 body {
-  background-color: #770ad1;
-	font-family: 'Gloria Hallelujah', cursive;
+  background-color: #ffeaa7;
+  font-family: 'Gloria Hallelujah', cursive;
   color: #fff;
 }
 
 header {
-  background-color: rgb(24, 22, 22);
+  background-color: #fd79a8;
   padding: 20px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
+
 header h1 {
-  color: #00ffd5;
+  color: #ffffff;
   font-size: 2.5rem;
 }
 
-h1 {
-  font-size: 2rem;
-  color: #00ffd5;
-  margin-left: 20px;
-}
 nav ul {
   list-style: none;
   padding: 0;
@@ -37,13 +33,13 @@ nav ul {
   flex-wrap: wrap;
   gap: 15px;
 }
+
 nav ul li a {
-  color: #00ffd5;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 12px;
 }
-
 
 ul {
   display: flex;
@@ -61,11 +57,11 @@ ul li {
 }
 
 nav ul li a:hover {
-  color: #f58802;
-}  
+  color: #ffeaa7;
+}
+
 table {
   width: 100%;
-  border-spacing: 20px;
   border-spacing: 20px;
 }
 
@@ -73,29 +69,28 @@ th {
   text-align: left;
   font-size: 1.5rem;
   padding-bottom: 10px;
+  color: #ffffff;
 }
-
 td {
-  background-color: #222222;
-  padding: 20px;
-  border-radius: 10px;
+  background-color: transparent; 
+  padding: 0; 
+  border-radius: 0; 
   text-align: center;
-  transition: transform 0.2s ease;
+  transition: transform 2.2s ease;
 }
 
 td:hover {
   transform: scale(1.05);
-  background-color: #333;
+}
+
+.card-content p {
+  margin: 5px 0;
 }
 
 a {
-  color: #00ffd5;
+  color: #ffffff;
   text-decoration: none;
   font-size: 1.2rem;
-}
-
-td p {
-  margin: 5px 0;
 }
 
 .titulo-infantil {
@@ -103,16 +98,27 @@ td p {
   font-size: 1.1rem;
 }
 
-a {
-  color: #00ffd5;
-  text-decoration: none;
+a:hover {
+  color: #ffeaa7;
 }
 
-a:hover {
-  text-decoration: underline;
-}
 img {
-  width: 100px;
-  height: auto;
-  border-radius: 10px;
+  width: 160px;
+  height: 240px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.8);
+}
+footer {
+  background-color: #fd79a8;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
 }

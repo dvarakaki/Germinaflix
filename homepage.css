@@ -67,7 +67,6 @@ ul li {
   transition: color 0.3s ease;
 }
 
-
 table {
   width: 100%;
   margin: 30px auto;
@@ -81,19 +80,15 @@ th {
 }
 
 td {
-  background-color: #222;
-  padding: 20px;
-  border-radius: 10px;
   text-align: center;
-  transition: transform 0.2s ease;
+  transition: transform 2.2s ease;
 }
 
 td:hover {
   transform: scale(1.05);
-  background-color: #333;
 }
 
-td p {
+.card-content p {
   margin: 5px 0;
 }
 
@@ -111,19 +106,23 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
 img {
-  width: 100px;
-  height: auto;
-  border-radius: 10px;
+  width: 200px;
+  height: 270px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.8);
+}
 footer {
+  background-color: #121212;
+  color: white;
   text-align: center;
-  color: #fff;
-  font-size: 0.9rem;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  padding: 15px 0;
+  width: 100%;
 }
