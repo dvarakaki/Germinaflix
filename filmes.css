@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -219,3 +220,133 @@ ul.box-redes-sociais li.youtube a:before {
     transform: scale(1);
   }
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  font-family: "Helvetica Neue", "Netflix Sans", sans-serif;
+  color: #fff;
+}
+
+header {
+  background-color: rgb(24, 22, 22);
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+  color: #e50914;
+  font-size: 2.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: rgb(229, 9, 20);
+  margin-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #e50914;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+ul li {
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+table {
+  width: 100%;
+  margin: 30px auto;
+  border-spacing: 20px;
+}
+
+th {
+  text-align: left;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+td {
+  text-align: center;
+  transition: transform 2.2s ease;
+}
+
+td:hover {
+  transform: scale(1.05);
+}
+
+.card-content p {
+  margin: 5px 0;
+}
+
+.titulo-filme {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+a {
+  color: #e50914;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+img {
+  width: 160px;
+  height: 240px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.8);
+}
+footer {
+  background-color: #121212;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+}
+>>>>>>> b76a2203651738dd36affd8e3b0ed80d10f09379
